@@ -35,7 +35,6 @@ export default function RootLayout() {
       <Stack initialRouteName="home">
         <Stack.Screen name="webview" options={{ headerShown: false }} />
         <Stack.Screen name="home" options={{ headerShown: false }} />
-        <Stack.Screen name="detail" options={{ headerShown: false }} />
         <Stack.Screen
           name="[details]"
           options={{ headerShown: false }}
